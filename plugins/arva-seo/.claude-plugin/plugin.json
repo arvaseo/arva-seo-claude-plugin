@@ -1,0 +1,20 @@
+{
+  "name": "arva-seo",
+  "displayName": "Arva SEO",
+  "version": "1.0.0",
+  "description": "Write content briefs, drafts and page copy for your Arva SEO websites with Claude. Claude reads each website's details, brief and writing rules from Arva SEO, and saves its work back there for you to review. No API key needed: sign in to your Arva SEO account once.",
+  "author": {
+    "name": "Arva SEO",
+    "email": "support@arvaseo.com",
+    "url": "https://arvaseo.com"
+  },
+  "homepage": "https://support.arvaseo.com/articles/use-arva-seo-in-claude-or-chatgpt",
+  "repository": "https://github.com/arvaseo/arva-seo-claude-plugin",
+  "license": "MIT",
+  "keywords": ["seo", "content", "copywriting", "content brief", "on-page seo"],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://support.arvaseo.com/articles/use-arva-seo-in-claude-or-chatgpt",
+  "supportUrl": "https://arvaseo.com/contact/",
+  "privacyPolicyUrl": "https://arvaseo.com/privacy/",
+  "termsOfServiceUrl": "https://arvaseo.com/terms/"
+}

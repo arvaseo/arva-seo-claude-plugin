@@ -1,0 +1,18 @@
+{
+  "name": "arva-seo",
+  "description": "Arva SEO for Claude: write content briefs, drafts and page copy for your websites, saved back to Arva SEO for review.",
+  "owner": {
+    "name": "Arva SEO",
+    "email": "support@arvaseo.com",
+    "url": "https://arvaseo.com"
+  },
+  "plugins": [
+    {
+      "name": "arva-seo",
+      "source": "./plugins/arva-seo",
+      "description": "Write content briefs, drafts and page copy for your Arva SEO websites with Claude, using your website's details and writing rules, and save the work back to Arva SEO for review.",
+      "category": "marketing",
+      "tags": ["seo", "content", "copywriting", "marketing"]
+    }
+  ]
+}

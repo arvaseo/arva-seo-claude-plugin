@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "arva-seo": {
+      "type": "http",
+      "url": "https://api.arvaseo.com/mcp"
+    }
+  }
+}
