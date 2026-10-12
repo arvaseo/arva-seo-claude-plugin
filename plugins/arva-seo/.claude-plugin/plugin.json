@@ -1,7 +1,7 @@
 {
   "name": "arva-seo",
   "displayName": "Arva SEO",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Write content briefs, drafts and page copy for your Arva SEO websites with Claude. Claude reads each website's details, brief and writing rules from Arva SEO, and saves its work back there for you to review. No API key needed: sign in to your Arva SEO account once.",
   "author": {
     "name": "Arva SEO",

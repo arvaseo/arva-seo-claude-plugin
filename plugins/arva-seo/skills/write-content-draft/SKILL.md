@@ -14,10 +14,10 @@ The Arva SEO tools (`list_websites`, `list_content`, `get_content_piece`, `save_
 ## Steps
 
 1. **Find the piece.** Call `list_websites` (ask which website if there are several), then `list_content`, and pick the piece the person means.
-2. **Read it.** Call `get_content_piece`. It returns the brief, the business context and `instructions.draft`, the writing rules and format. If the piece has no brief yet, offer to write one first (the write-content-brief skill); a draft without a brief is weaker.
-3. **Write the draft** in Markdown, following `instructions.draft` and the brief's outline, search intent and angle:
-   - The H1, then the byline exactly as the author is given, or the placeholder the instructions name.
-   - First-hand experience only from the business's notes. Where the brief asks for experience, examples, photos or data the notes don't have, add the bracketed placeholder the instructions describe, so the person fills it in.
+2. **Read it.** Call `get_content_piece`. It returns the brief, the business context and `writing_guidelines.draft`: how an Arva SEO draft is laid out, and its accuracy and E-E-A-T rules. If the piece has no brief yet, offer to write one first (the write-content-brief skill); a draft without a brief is weaker.
+3. **Write the draft** in Markdown, following `writing_guidelines.draft` and the brief's outline, search intent and angle:
+   - The H1, then the byline exactly as the author is given, or the placeholder the guidelines name.
+   - First-hand experience only from the business's notes. Where the brief asks for experience, examples, photos or data the notes don't have, add the bracketed placeholder the guidelines describe, so the person fills it in.
    - Careful claims, with a source placeholder where a source is needed. Never invent statistics, studies, quotes or prices.
    - The FAQ section, a short conclusion with a helpful next step, and the "Last reviewed" line.
 4. **Show it, then save it.** Show the draft, make any changes the person asks for, then call `save_content_draft` with the Markdown only (no code fences). If Arva SEO answers that a draft already exists, ask whether to replace it before calling again with `replace_existing: true`.
