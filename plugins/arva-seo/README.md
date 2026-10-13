@@ -27,6 +27,8 @@ An Arva SEO account on any plan, including Free, and Claude (the Claude app, or 
 
 In the Claude app, open **Customize → Plugins**, choose **Add marketplace**, enter `arvaseo/arva-seo-claude-plugin` and install **Arva SEO**. Then open the plugin's **Connectors** tab, choose **Connect** next to Arva SEO, sign in and approve.
 
+The connector alone (without the skills) is also in [Claude's connector directory](https://claude.ai/directory/connectors/arva-seo).
+
 In Claude Code:
 
 ```

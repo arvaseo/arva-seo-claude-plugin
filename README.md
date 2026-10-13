@@ -30,7 +30,7 @@ Then run `/mcp`, choose **arva-seo** and sign in to Arva SEO in your browser.
 
 ### Without the plugin
 
-You can also add the connector on its own: in Claude, **Settings → Connectors → Add custom connector**, with the address `https://api.arvaseo.com/mcp`. The skills aren't included that way; the connector still gives Claude the same tools and writing rules.
+You can also add the connector on its own, from [Arva SEO's listing in Claude's connector directory](https://claude.ai/directory/connectors/arva-seo), or in Claude under **Settings → Connectors → Add custom connector** with the address `https://api.arvaseo.com/mcp`. The skills aren't included that way; the connector still gives Claude the same tools and writing rules.
 
 ## Try it
 
