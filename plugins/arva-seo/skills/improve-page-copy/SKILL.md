@@ -22,7 +22,7 @@ The Arva SEO tools (`list_websites`, `list_pages`, `get_page`, `save_page_recomm
    - Only promise what the page delivers. Never invent prices, offers, awards or reviews.
    - Anything else worth changing (thin sections, missing internal links, alt text) goes in `notes`, in plain words.
 4. **Show them with the current copy** side by side and a one-line reason for each change, then call `save_page_recommendations`. If Arva SEO answers that the page already has recommended copy, ask whether to replace it before calling again with `replace_existing: true`.
-5. **Say what happens next:** the suggestions are in On-page in Arva SEO, marked for review. The person approves them there and applies them on their website (Arva SEO doesn't change the website itself).
+5. **Say what happens next:** the suggestions are in Optimize in Arva SEO, marked for review. Once approved, they can be applied on the website by hand, or sent to WordPress (Yoast SEO or Rank Math) with the publish-to-wordpress skill when the site is connected.
 
 ## Rules
 

@@ -1,6 +1,6 @@
 {
   "name": "arva-seo",
-  "description": "Arva SEO for Claude: write content briefs, drafts and page copy for your websites, saved back to Arva SEO for review.",
+  "description": "Arva SEO for Claude: verify websites, research keywords, fix and track SEO, write content and report, saved back to Arva SEO.",
   "owner": {
     "name": "Arva SEO",
     "email": "support@arvaseo.com",
@@ -10,9 +10,16 @@
     {
       "name": "arva-seo",
       "source": "./plugins/arva-seo",
-      "description": "Write content briefs, drafts and page copy for your Arva SEO websites with Claude, using your website's details and writing rules, and save the work back to Arva SEO for review.",
+      "description": "Do your SEO in Claude with Arva SEO: verify websites, research keywords, build fix plans, study competitors, write content and page copy, report to clients and send finished work to WordPress within the site's limits.",
       "category": "marketing",
-      "tags": ["seo", "content", "copywriting", "marketing"]
+      "tags": [
+        "seo",
+        "keyword research",
+        "content",
+        "site audit",
+        "wordpress",
+        "marketing"
+      ]
     }
   ]
 }

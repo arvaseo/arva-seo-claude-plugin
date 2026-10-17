@@ -1,14 +1,19 @@
 # Arva SEO for Claude
 
-Write content briefs, drafts and page copy for your [Arva SEO](https://arvaseo.com) websites with Claude, using the Claude plan you already have. Claude reads each website's details, the brief and Arva SEO's writing rules, and saves its work back to Arva SEO, where you review it before anything is published. No API key needed: you sign in to your Arva SEO account once.
+Do your SEO in Claude with [Arva SEO](https://arvaseo.com), using the Claude plan you already have: set up and verify a website, research keywords, build a fix plan, study competitors, write content and page copy, report to clients and send finished work to WordPress. Claude works with your Arva SEO account and saves its work there for you to review. No API key needed: you sign in to your Arva SEO account once.
 
 The plugin adds:
 
-- **The Arva SEO connector** (`https://api.arvaseo.com/mcp`): your websites, content pieces, briefs and audited pages, as tools Claude can use with your access.
-- **Three skills** Claude uses when you ask for them:
-  - **write-content-brief**: plans a page (titles, meta description, outline, FAQs, E-E-A-T) and saves the brief to Content.
-  - **write-content-draft**: writes the article from its brief, with placeholders where your own experience belongs, and saves the draft to Content.
-  - **improve-page-copy**: suggests a better title tag, meta description and H1 for an audited page and saves them to On-page for review.
+- **The Arva SEO connector** (`https://api.arvaseo.com/mcp`): your websites, audits, search data, keywords, rankings, PageSpeed, AI search, local SEO, tasks, backlinks, competitors, reports, content and WordPress, as tools Claude can use with your access and your plan's allowances.
+- **Skills** Claude uses when you ask for them, following the SEO cycle:
+  - **get-started**: adds a website and walks you through verifying it in the chat, then runs the first audit.
+  - **keyword-research**: quick wins from Search Console, new keyword ideas, the keyword map and rank tracking.
+  - **fix-plan**: a prioritised plan and tasks from the audit, PageSpeed, AI search and local SEO.
+  - **competitor-research**: the keyword and link gaps against competitors, and link prospects for outreach.
+  - **write-content-brief** and **write-content-draft**: plan and write articles, saved to Content.
+  - **improve-page-copy**: better titles, meta descriptions and H1s for audited pages, saved to Optimize for review.
+  - **monthly-report**: what changed, and a client report with a summary and next steps.
+  - **publish-to-wordpress**: sends drafts and SEO titles and descriptions to WordPress, within what the site allows.
 
 ## Install
 

@@ -1,22 +1,30 @@
 # Arva SEO
 
-Write content briefs, drafts and page copy for your [Arva SEO](https://arvaseo.com) websites with Claude, using the Claude plan you already have. Claude reads each website's details, the business's own experience notes and Arva SEO's writing guidelines, and saves its work back to Arva SEO, where you and your team review it before anything goes on your website. No API key is needed: you sign in to your Arva SEO account once and approve.
+Do your SEO in Claude with [Arva SEO](https://arvaseo.com), using the Claude plan you already have: set up and verify a website, research keywords, build a fix plan, study competitors, write content and page copy, report to clients and send finished work to WordPress. Claude works with your Arva SEO account and saves its work there, where you and your team review it. No API key is needed: you sign in to your Arva SEO account once and approve.
 
 ## What's included
 
-- **The Arva SEO connector**, `https://api.arvaseo.com/mcp`: Arva SEO's own MCP server. It gives Claude tools to list your websites, content pieces and audited pages, read one in full, start a content piece, and save a brief, a draft or page copy suggestions.
-- **write-content-brief**: plans a page (title options, meta description, search intent, outline, FAQs and an E-E-A-T plan) and saves the brief to Content in Arva SEO.
-- **write-content-draft**: writes the article from its brief in Markdown, with placeholders where the business's own experience or a source is needed, and saves the draft to Content.
-- **improve-page-copy**: suggests a better title tag, meta description and H1 for a page Arva SEO has audited, using the audit's fixes and Search Console queries, and saves them to On-page for review.
+- **The Arva SEO connector**, `https://api.arvaseo.com/mcp`: Arva SEO's own MCP server, with tools for your websites, verification and audits; Search Console and GA4 data, keywords, rankings and the keyword map; PageSpeed, AI search, local SEO and tasks; backlinks, competitors, findings and client reports; content, page copy and WordPress.
+- **Skills**, following the SEO cycle:
+  - **get-started**: adds a website and walks you through verifying it right in the chat, with steps for your platform (WordPress, Shopify, Wix, Squarespace, Webflow and more) and DNS host, then runs the first audit.
+  - **keyword-research**: finds quick wins in Search Console and new keyword ideas, saves them, gives each one a page and tracks rankings.
+  - **fix-plan**: turns the audit, PageSpeed, AI search and local SEO into a prioritised plan and tasks.
+  - **competitor-research**: compares you with competitors, finds the keyword and link gaps, and adds link prospects to your outreach pipeline.
+  - **write-content-brief** and **write-content-draft**: plan and write articles with your business's own experience, saved to Content.
+  - **improve-page-copy**: better titles, meta descriptions and H1s for audited pages, saved to Optimize for review.
+  - **monthly-report**: explains what changed and creates a client report with a summary and next steps.
+  - **publish-to-wordpress**: sends finished drafts and SEO titles and descriptions to WordPress, within what the site allows.
 
-Claude shows you each brief, draft or suggestion before saving it, and asks before replacing anything already there.
+Claude shows you its work before saving it, and asks before replacing anything already there.
 
 ## What it reads, sends and saves
 
-- **Nothing runs on your computer.** The plugin is three skills (Markdown instructions for Claude) and the connector's address. It has no scripts, hooks or packages.
+- **Nothing runs on your computer.** The plugin is skills (Markdown instructions for Claude) and the connector's address. It has no scripts, hooks or packages.
 - **Claude talks only to Arva SEO's server** at `api.arvaseo.com`, over HTTPS, signed in as you with OAuth. You approve the connection on an Arva SEO page, and it uses your access: the websites you can see, saving only where your role can edit.
-- **What it reads from your Arva SEO account:** website names and addresses; content pieces (topic, keywords, author, your experience notes, brief and draft); audited pages (current title, meta description and H1, word count, mapped keywords, audit fixes, and Search Console queries when Google is connected).
-- **What it saves to your Arva SEO account:** new content pieces, briefs, drafts and page copy suggestions, marked for review. It never publishes to your website, deletes anything, changes settings, invites people or sees billing.
+- **What it reads from your Arva SEO account:** what you can see in Arva SEO for your websites: their details, audits, Search Console and GA4 figures, keywords and rankings, PageSpeed, AI search and local SEO results, backlinks, competitors, tasks, reports and content. It never sees billing or other people's accounts.
+- **What it changes in your Arva SEO account:** it adds websites, keywords, keyword mappings, tasks, AI questions, competitors, link prospects, content pieces, briefs, drafts, page copy and reports, and updates task and page statuses. It never deletes anything, changes settings or invites people.
+- **What uses your plan:** keyword research, PageSpeed tests, Business Profile lookups, map grid scans and backlink lookups use the same monthly allowances as in the app, and rank tracking uses slots. Claude says what each one used and what's left.
+- **What reaches outside Arva SEO:** verifying a website reads its homepage, DNS or file; audits crawl it; PageSpeed tests are run by Google; recrawl requests go to IndexNow (Bing and others). Sending to WordPress goes through the Arva SEO Connector plugin and never beyond the publishing mode the site's WordPress administrator set; Claude asks before each send.
 - **Nothing is sent anywhere else.** What Claude saves is kept in your Arva SEO account under the [Arva SEO Privacy Policy](https://arvaseo.com/privacy/). Disconnect Claude any time in Arva SEO under **Integrations → AI**; its access ends at once.
 
 ## Requirements
@@ -39,9 +47,13 @@ Then run `/mcp`, choose **arva-seo** and sign in to Arva SEO in your browser.
 
 ## Try it
 
+- "Add my website to Arva SEO and help me verify it."
+- "Which keywords am I close to page one for?"
+- "What should I fix first on my website?"
+- "Who are my competitors outranking me for, and who links to them?"
 - "Write a brief for my next content piece."
-- "Draft the article about dental implant costs from its brief."
-- "Improve the title and meta description of my homepage."
+- "Create last month's client report."
+- "Send the dental implants article to WordPress as a draft."
 
 ## Help
 
