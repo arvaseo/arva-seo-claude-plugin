@@ -13,7 +13,7 @@ The Arva SEO tools come from the Arva SEO connector. If they aren't available, t
 
 ## Steps
 
-1. **Find or add the website.** Call `list_websites`. If the website isn't there, ask for its address and call `add_website`. If several are unverified, ask which one.
+1. **Find or add the website.** Call `list_websites`. If the website isn't there, ask for its address and the country it mainly serves, and call `add_website` with `country` (a two-letter code, or `worldwide`). The country sets the market for keyword data, rankings and competitor estimates; without one, a country-code address such as `.ph` sets it, and any other address uses the United States. If several are unverified, ask which one.
 2. **Get the steps for this website.** Call `get_verification_steps`. It reads which platform the website runs on (WordPress, Shopify, Wix, Squarespace, Webflow, Ghost) and where its DNS is hosted (Cloudflare, GoDaddy, Namecheap and others), recommends the easiest method and gives numbered steps with the exact values.
 3. **Say what you found** in one or two sentences, recommend the method and why, and offer the others if the person prefers (for example DNS when they can't edit the website).
 4. **Walk through it one step at a time.** Give the exact tag, TXT record or file name and content in a code block, and wait for the person to say each step is done. If their screen looks different, help them find the setting.
