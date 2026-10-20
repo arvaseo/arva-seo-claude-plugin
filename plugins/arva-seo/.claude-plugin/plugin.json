@@ -1,8 +1,8 @@
 {
   "name": "arva-seo",
   "displayName": "Arva SEO",
-  "version": "1.1.1",
-  "description": "Do your SEO in Claude with Arva SEO: verify websites, research keywords, build fix plans, study competitors, write content and page copy, report to clients and send finished work to WordPress. Claude works with your Arva SEO account and saves its work there for you to review. No API key needed: sign in to your Arva SEO account once.",
+  "version": "1.2.0",
+  "description": "Do your SEO in Claude with Arva SEO: verify websites, research keywords, build fix plans, study competitors, write content and page copy, report to clients, send finished work to WordPress and speed up WordPress sites with the Connector's PageSpeed fixes. Claude works with your Arva SEO account and saves its work there for you to review. No API key needed: sign in to your Arva SEO account once.",
   "author": {
     "name": "Arva SEO",
     "email": "support@arvaseo.com",

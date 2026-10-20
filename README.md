@@ -14,6 +14,7 @@ The plugin adds:
   - **improve-page-copy**: better titles, meta descriptions and H1s for audited pages, saved to Optimize for review.
   - **monthly-report**: what changed, and a client report with a summary and next steps.
   - **publish-to-wordpress**: sends drafts and SEO titles and descriptions to WordPress, within what the site allows.
+  - **speed-up-wordpress**: tries the Arva SEO Connector's PageSpeed fixes on your WordPress site, then turns them on once you've checked your pages.
 
 ## Install
 
@@ -45,7 +46,7 @@ You can also add the connector on its own, from [Arva SEO's listing in Claude's 
 
 ## What Claude can and can't do
 
-Claude works with your Arva SEO access: it sees the websites you can see, and saves briefs, drafts and page suggestions only where your role can edit. Everything it saves waits for your review in Arva SEO. It can't publish to your website, change billing or settings, or see other workspaces. You can disconnect it any time under **Integrations → AI** in Arva SEO.
+Claude works with your Arva SEO access: it sees the websites you can see, and saves briefs, drafts and page suggestions only where your role can edit. Everything it saves waits for your review in Arva SEO. It changes your WordPress site only when you confirm (drafts, SEO titles and descriptions, PageSpeed fixes), within what the site's administrator allows. It can't change billing or settings, or see other workspaces. You can disconnect it any time under **Integrations → AI** in Arva SEO.
 
 Help: [Use Arva SEO in Claude or ChatGPT](https://support.arvaseo.com/articles/use-arva-seo-in-claude-or-chatgpt) · [support@arvaseo.com](mailto:support@arvaseo.com) · [Privacy](https://arvaseo.com/privacy/) · [Terms](https://arvaseo.com/terms/)
 

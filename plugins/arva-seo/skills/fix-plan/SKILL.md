@@ -18,7 +18,8 @@ The Arva SEO tools come from the Arva SEO connector. If they aren't available, t
    - `get_pagespeed_results` for speed and Core Web Vitals. To test a page now, `run_pagespeed_test` uses the plan's monthly PageSpeed tests (one per device): say what it uses first.
    - `get_ai_search` for AI readiness, Google AI Overviews and answers from AI assistants. `track_ai_question` adds a question to follow.
    - `get_local_seo` for a local business: Business Profile, map pack and local checks. `check_business_profile` and `run_map_grid_scan` use monthly allowances: say what they cost first.
-2. **Prioritise**: critical issues and anything that blocks indexing first, then what affects the most pages or traffic, then quick wins. Keep it to the five to ten things that matter most, each with why and how in plain words.
+2. **Prioritise**: critical issues and anything that blocks indexing first, then what affects the most pages or traffic, then quick wins. Keep it to the five to ten things that matter most, each with why and how in plain words. Audit issues, tasks and PageSpeed findings include `how_on_platform`: numbered steps for the website's own platform (WordPress, Shopify, Wix, Squarespace, Webflow) with how long they take. Use those steps when explaining a fix.
+   - On WordPress with the Arva SEO Connector, PageSpeed findings list `connector_fixes`: switches in the plugin that fix them. The speed-up-wordpress skill tries and turns them on.
 3. **Create tasks** the person agrees to: `create_tasks_from_audit` for audit issues (one task per issue, with the affected pages), and `create_task` for the rest. `list_tasks` shows the board; `update_task` moves a task along.
 4. **Page by page**, `get_page` and `save_page_recommendations` (or the improve-page-copy skill) handle titles and descriptions, `set_page_status` tracks progress, and `request_recrawl` tells Bing and other IndexNow search engines when a page has changed.
 

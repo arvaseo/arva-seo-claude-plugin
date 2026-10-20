@@ -4,16 +4,17 @@ Do your SEO in Claude with [Arva SEO](https://arvaseo.com), using the Claude pla
 
 ## What's included
 
-- **The Arva SEO connector**, `https://api.arvaseo.com/mcp`: Arva SEO's own MCP server, with tools for your websites, verification and audits; Search Console and GA4 data, keywords, rankings and the keyword map; PageSpeed, AI search, local SEO and tasks; backlinks, competitors, findings and client reports; content, page copy and WordPress.
+- **The Arva SEO connector**, `https://api.arvaseo.com/mcp`: Arva SEO's own MCP server, with tools for your websites, verification and audits; Search Console and GA4 data, keywords, rankings and the keyword map; PageSpeed, AI search, local SEO and tasks; backlinks, competitors, findings and client reports; content, page copy, WordPress and its PageSpeed fixes.
 - **Skills**, following the SEO cycle:
-  - **get-started**: adds a website and walks you through verifying it right in the chat, with steps for your platform (WordPress, Shopify, Wix, Squarespace, Webflow and more) and DNS host, then runs the first audit.
+  - **get-started**: adds a website (its first check starts straight away) and walks you through verifying it right in the chat: connecting Google when the website is in Search Console, or steps for your platform (WordPress, Shopify, Wix, Squarespace, Webflow and more) and DNS host.
   - **keyword-research**: finds quick wins in Search Console and new keyword ideas, saves them, gives each one a page and tracks rankings.
-  - **fix-plan**: turns the audit, PageSpeed, AI search and local SEO into a prioritised plan and tasks.
+  - **fix-plan**: turns the audit, PageSpeed, AI search and local SEO into a prioritised plan and tasks, with steps for your website's platform.
   - **competitor-research**: compares you with competitors, finds the keyword and link gaps, and adds link prospects to your outreach pipeline.
   - **write-content-brief** and **write-content-draft**: plan and write articles with your business's own experience, saved to Content.
   - **improve-page-copy**: better titles, meta descriptions and H1s for audited pages, saved to Optimize for review.
   - **monthly-report**: explains what changed and creates a client report with a summary and next steps.
   - **publish-to-wordpress**: sends finished drafts and SEO titles and descriptions to WordPress, within what the site allows.
+  - **speed-up-wordpress**: tries the Arva SEO Connector's PageSpeed fixes on your WordPress site, then turns them on once you've checked your pages.
 
 Claude shows you its work before saving it, and asks before replacing anything already there.
 
