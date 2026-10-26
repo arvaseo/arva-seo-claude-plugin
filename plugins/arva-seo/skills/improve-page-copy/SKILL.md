@@ -13,7 +13,7 @@ The Arva SEO tools (`list_websites`, `list_pages`, `get_page`, `save_page_recomm
 
 ## Steps
 
-1. **Find the website and page.** Call `list_websites` (ask which website if there are several), then `list_pages`. Pick the page the person names, by URL or by what it's about. If they haven't picked one, call `list_pages` with `filter: "needs_fixes"` and suggest a few.
+1. **Find the website and page.** Call `list_websites` (ask which website if there are several), then `list_pages`. Pick the page the person names, by URL or by what it's about. If they haven't picked one, call `list_pages` with `filter: "needs_fixes"` and suggest a few from the top: it lists the pages that matter most first (the home page, service and product pages, then posts). Don't suggest blog listings or archives (category, tag, author and date pages, page 2 and later of a listing): their titles and descriptions come from one template, so explain the `archive_templates` steps instead, unless the person asks for one by name.
 2. **Read the page.** Call `get_page` with the page's URL or ID. It returns the current title, meta description and H1, the page's keywords, the audit's fixes for it and, when Google is connected, the Search Console queries people already find it with. Use those queries: they show what searchers expect from the page.
 3. **Write the suggestions:**
    - Title tag: about 50–60 characters, the main keyword near the start, the brand at the end when it fits.

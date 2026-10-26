@@ -26,7 +26,7 @@ Claude shows you its work before saving it, and asks before replacing anything a
 - **What it changes in your Arva SEO account:** it adds websites, keywords, keyword mappings, tasks, AI questions, competitors, link prospects, content pieces, briefs, drafts, page copy and reports, and updates task and page statuses. It never deletes anything, changes settings or invites people.
 - **What uses your plan:** keyword research, PageSpeed tests, Business Profile lookups, map grid scans and backlink lookups use the same monthly allowances as in the app, and rank tracking uses slots. Claude says what each one used and what's left.
 - **What reaches outside Arva SEO:** verifying a website reads its homepage, DNS or file; audits crawl it; PageSpeed tests are run by Google; recrawl requests go to IndexNow (Bing and others). Sending to WordPress goes through the Arva SEO Connector plugin and never beyond the publishing mode the site's WordPress administrator set; Claude asks before each send.
-- **Nothing is sent anywhere else.** What Claude saves is kept in your Arva SEO account under the [Arva SEO Privacy Policy](https://arvaseo.com/privacy/). Disconnect Claude any time in Arva SEO under **Integrations → AI**; its access ends at once.
+- **Nothing is sent anywhere else.** What Claude saves is kept in your Arva SEO account under the [Arva SEO Privacy Policy](https://arvaseo.com/privacy/). Disconnect Claude any time in Arva SEO under **Connections → AI**; its access ends at once.
 
 ## Requirements
 
